@@ -47,7 +47,12 @@ public static void main(String[] args) {
   capitalCities.put("France", "Paris");
   capitalCities.put("Spain", "Madrid");
   System.out.print(capitalCities);
+  //getting value of key "spain"
   String cityCapital = capitalCities.get("Spain").toUpperCase();
   System.out.println("\n" + cityCapital);
+  //running through keysets with a for loop
+  for (String i : capitalCities.keySet()) {
+    System.out.println(i);
+  }
 }
 }
