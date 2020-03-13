@@ -44,9 +44,10 @@ public static void main(String[] args) {
   
   //adding keys & values
   capitalCities.put("USA", "Washington D.C.");
-  capitalCities.put("Frace", "Paris");
+  capitalCities.put("France", "Paris");
   capitalCities.put("Spain", "Madrid");
   System.out.print(capitalCities);
-
+  String cityCapital = capitalCities.get("Spain").toUpperCase();
+  System.out.println("\n" + cityCapital);
 }
 }
