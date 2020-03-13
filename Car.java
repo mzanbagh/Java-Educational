@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.time.*;
+import java.util.HashMap;
 
 class Car{
 
@@ -37,6 +38,15 @@ public static void main(String[] args) {
   //upper case item 2 in array & print
   String item = cars.get(2).toUpperCase();
   System.out.println(item);
+
+  //creating hash maps
+  HashMap <String, String> capitalCities = new HashMap<String,String>();
+  
+  //adding keys & values
+  capitalCities.put("USA", "Washington D.C.");
+  capitalCities.put("Frace", "Paris");
+  capitalCities.put("Spain", "Madrid");
+  System.out.print(capitalCities);
 
 }
 }
