@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.time.*;
 import java.util.HashMap;
 
-class Car{
+class Educational{
 
 public static void main(String[] args) {
   
