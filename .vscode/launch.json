@@ -8,8 +8,8 @@
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "vmArgs": "--enable-preview",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            "vmArgs": "--enable-preview"
         },
         {
             "type": "java",
